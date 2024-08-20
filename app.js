@@ -2,6 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzI0MTY3NDQxLCJpYXQiOjE3MjQxNjcxNDEsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjQ1Yzk1N2MwLWU3MDQtNDRkZC05MTY3LTEwZWYwMDgxMGY3ZCIsInN1YiI6InNoYXJzaHZhcmRoYW43NTlAYmJkdS5hYy5pbiJ9LCJjb21wYW55TmFtZSI6ImdvTWFydCIsImNsaWVudElEIjoiNDVjOTU3YzAtZTcwNC00NGRkLTkxNjctMTBlZjAwODEwZjdkIiwiY2xpZW50U2VjcmV0IjoidG9NTmRrbGZMSnJJV256eiIsIm93bmVyTmFtZSI6IkhhcnNoIiwib3duZXJFbWFpbCI6InNoYXJzaHZhcmRoYW43NTlAYmJkdS5hYy5pbiIsInJvbGxObyI6IjEyMTA0MzgwMzIifQ.8B8AsWO82iCw0lBhW5cTKwQ0zKsL4XXI2cRUPi7QM3g';
+//If you get Status Code 401, please replace the ACCESS_TOKEN with the new one from the given URL, the code will run fine then : )
 const app = express();
 const TEST_SERVER_URL = 'http://20.244.56.144/test';
 const PORT = process.env.PORT || 9876;
